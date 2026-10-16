@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — projetos pessoais</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; padding: 2.5rem 1rem;
+    font: 16px/1.6 system-ui, -apple-system, Segoe UI, sans-serif;
+    background: #18181b; color: #e4e4e7;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  p.sub { color: #a1a1aa; margin-top: 0; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; color: #d4d4d8; }
+  ul { padding-left: 1.1rem; }
+  li { margin: .4rem 0; }
+  a { color: #38bdf8; }
+  code { background: #27272a; padding: .1rem .35rem; border-radius: .25rem;
+         font-size: .9em; }
+  footer { margin-top: 2.5rem; color: #71717a; font-size: .875rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Aplicativos "Painel pessoal" e "BENS" · atualizada em 16 de outubro de 2026</p>
+
+  <h2>Quem somos</h2>
+  <p>São dois aplicativos pessoais, mantidos de forma independente pelo
+    titular do e-mail jadersonmv@gmail.com, sem fins comerciais. Não há cadastro de usuários:
+    o único usuário é o próprio autor, e os aplicativos acessam apenas a conta
+    Google dele.</p>
+
+  <h2>Quais dados são acessados</h2>
+  <ul>
+    <li><strong>Google Tasks</strong> (escopo
+      <code>https://www.googleapis.com/auth/tasks</code>): leitura das tarefas
+      para exibi-las num painel de uso doméstico, e criação e conclusão de
+      tarefas correspondentes a contas a pagar.</li>
+  </ul>
+  <p>Nenhum outro serviço do Google é acessado. Não há acesso a e-mail,
+    arquivos, contatos, fotos ou localização.</p>
+
+  <h2>Como os dados são usados</h2>
+  <ul>
+    <li>As tarefas são lidas para montar um painel de leitura pessoal.</li>
+    <li>Contas a pagar registradas no aplicativo BENS viram tarefas no Google
+      Tasks, com o nome da conta e a data de vencimento. Valores monetários
+      <strong>não</strong> são enviados ao Google.</li>
+    <li>Marcar uma tarefa como concluída sincroniza esse estado entre os dois
+      lados.</li>
+  </ul>
+
+  <h2>Onde os dados ficam</h2>
+  <p>Os dados permanecem na conta Google do autor e em armazenamento privado
+    sob seu controle. As credenciais de acesso ficam em cofres de segredo
+    (GitHub Actions Secrets e Azure Container Apps Secrets) e nunca são
+    publicadas em código-fonte, backups ou registros de log.</p>
+
+  <h2>O que não é feito</h2>
+  <ul>
+    <li>Os dados <strong>não</strong> são vendidos, cedidos, compartilhados ou
+      transferidos a terceiros.</li>
+    <li><strong>Não</strong> há publicidade, rastreamento, perfilamento nem
+      análise de comportamento.</li>
+    <li>Os dados <strong>não</strong> são usados para treinar modelos de
+      inteligência artificial.</li>
+    <li><strong>Não</strong> há acesso a dados de outras pessoas, porque não há
+      outros usuários.</li>
+  </ul>
+
+  <h2>Retenção e remoção</h2>
+  <p>As tarefas não são copiadas para fora da conta Google, salvo o
+    identificador necessário para manter a correspondência entre uma conta a
+    pagar e sua tarefa. A autorização pode ser revogada a qualquer momento em
+    <a href="https://myaccount.google.com/permissions">
+      myaccount.google.com/permissions</a>, o que interrompe imediatamente todo
+    o acesso.</p>
+
+  <h2>Alterações</h2>
+  <p>Mudanças nesta política serão publicadas nesta mesma página, com a data de
+    atualização revista no topo.</p>
+
+  <footer>
+    Dúvidas: jadersonmv@gmail.com ·
+    <a href="./">voltar ao início</a>
+  </footer>
+</main>
+</body>
+</html>
